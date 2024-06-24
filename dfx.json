@@ -1,14 +1,6 @@
 {
   "canisters": {
-    "internetcomputer_backend": {
-      "candid": "src/internetcomputer_backend/internetcomputer_backend.did",
-      "package": "internetcomputer_backend",
-      "type": "rust"
-    },
     "internetcomputer_frontend": {
-      "dependencies": [
-        "internetcomputer_backend"
-      ],
       "source": [
         "src/internetcomputer_frontend/dist"
       ],
